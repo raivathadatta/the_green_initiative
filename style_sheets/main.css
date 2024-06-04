@@ -1191,11 +1191,11 @@ main {
         float: right;
         right: -3%;
         left: 56%;
-        height: 300%;
+        height: 275%;
     }
 
     #latest_news_id {
-        margin-top: 36%;
+        margin-top: 37.5%;
         left: 2%;
         font-size: 1vi;
         width: 17%;
@@ -1207,7 +1207,7 @@ main {
     }
 
     #news_title {
-        margin-top: 42%;
+        margin-top: 46%;
         left: 12%;
         line-height: 3.5vi;
     }
@@ -1221,7 +1221,7 @@ main {
     }
 
     #news_read_more_button {
-        margin-top: 82%;
+        margin-top: 54%;
         left: -24%;
         width: 61%;
         padding: 3% 5% 3% 5%;
