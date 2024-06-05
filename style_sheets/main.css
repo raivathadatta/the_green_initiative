@@ -136,7 +136,47 @@ table {
     box-sizing: border-box;
     /* padding-bottom: 200px; */
 }
-
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
 @font-face {
     font-family: "flood-std";
     src: url("./../asserts/fonts/flood-std-regular_Jpl5d/Flood Std Regular/Flood Std Regular.otf");
@@ -849,7 +889,7 @@ main {
     .stop_climate_change_text {
         margin-top: 9%;
         font-weight: bold;
-        font-size: 3.4vi;
+        font-size: 3.5vi;
         text-align: left;
         margin-left: 1vi;
         line-height: 4vi;
@@ -1256,6 +1296,7 @@ main {
         letter-spacing: 0;
         line-height: 2.3vi;
         margin-right: 5%;
+        margin-left: 3%;
     
 
     }
@@ -1302,6 +1343,8 @@ main {
 
     .contact_us_section {
         position: relative;
+        padding-left: 5%;
+    
     }
 
     body {
