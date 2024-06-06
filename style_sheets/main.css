@@ -1335,8 +1335,12 @@ main {
 
     .address {
         width: 23%;
-        margin-top: 3%;
+        /* margin-top: 3%; */
+        /* margin-top: -3%; */
 
+    }
+    .address_location{
+        margin-top: 8%;
     }
 
     .contact_us {
